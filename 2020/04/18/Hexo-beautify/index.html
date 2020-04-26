@@ -16,7 +16,7 @@
     <meta name="description" content="Earth &amp; Global" />
     
     <title>
-      Archives2020/4 - Eabal
+      基于HEXO框架+Butterfly主题的美化日志 - Eabal
     </title>
     <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/eabal/imgx/eabal.ico" type="image/x-icon" />
@@ -61,7 +61,7 @@
           Home
         </a>
         
-        <a href="/archives" class="current">
+        <a href="/archives" class="">
           Archives
         </a>
         
@@ -115,7 +115,7 @@
             Home
           </a>
           
-          <a href="/archives" class="current">
+          <a href="/archives" class="">
             Archives
           </a>
           
@@ -156,88 +156,159 @@
     </div>
     <div id="container">
       <div class="main animated bounceInRight delay-0.7s">
-        <div id="archives">
-    
-        <div class="title">
-            Archives 
-             - 2020/4
-        </div>
-    
-
-
-
-
-    
-    
-    <section class="wrap">
-        <div class="meta">
-            <a href="/archives/2020" >
-                2020
-            </a>
-        </div>
-        <div class="year">
-            
-            <article class="item">
-            <a href="/2020/04/26/color/" title="color">
-                <span>2020/04/26</span>
-                <span>color</span>
-            </a>
-            </article>
-            
-
-
-            <article class="item">
-            <a href="/2020/04/26/HuhuCustomize/" title="HuhuCustomize">
-                <span>2020/04/26</span>
-                <span>HuhuCustomize</span>
-            </a>
-            </article>
-            
-
-
-            <article class="item">
-            <a href="/2020/04/26/hello-world/" title="Hello World">
-                <span>2020/04/26</span>
-                <span>Hello World</span>
-            </a>
-            </article>
-            
-
-
-            <article class="item">
-            <a href="/2020/04/26/HexoThemes/" title="HexoThemes">
-                <span>2020/04/26</span>
-                <span>HexoThemes</span>
-            </a>
-            </article>
-            
-
-
-            <article class="item">
-            <a href="/2020/04/18/Hexo-beautify/" title="基于HEXO框架+Butterfly主题的美化日志">
-                <span>2020/04/18</span>
-                <span>基于HEXO框架+Butterfly主题的美化日志</span>
-            </a>
-            </article>
-            
-
-
-            <article class="item">
-            <a href="/2020/04/18/Software&Websits/" title="软件、网站使用笔记">
-                <span>2020/04/18</span>
-                <span>软件、网站使用笔记</span>
-            </a>
-            </article>
-            
-    
-        </div>
-    </section>
+        <article class="post-entry">
+    <div class="header">
       
-<div class="paginator">
-    <span class="page-number current">1</span>
-</div>
-</div>
+      <div class="title">基于HEXO框架+Butterfly主题的美化日志</div>
+      <div class="meta">
+        <span class="item">
+          <span class="iconfont icon-time-circle"></span>
+          <span>2020/04/18</span>
+        </span>
 
+        
+
+         
+        <span class="item">
+          <span class="iconfont icon-folder"></span>
+          <span>
+              
+                
+                  <a href="/categories/Hexo">Hexo</a>
+                
+              
+          </span>
+        </span>
+        
+        
+         
+          <span class="item">
+            <span class="iconfont icon-tag1"></span>
+            <span>
+                
+                  
+                    <a href="/tags/Hexo">Hexo</a>
+                  
+                
+                  
+                    <a href="/tags/主题">主题</a>
+                  
+                
+                  
+                    <a href="/tags/Butterfly">Butterfly</a>
+                  
+                
+            </span>
+          </span>
+         
+      </div>
+      <div>
+      </div>
+    </div>
+    <html><head></head><body><p>计划</p>
+<ol>
+<li><p>添加daovoice\chatra\Tidio实时聊天插件</p>
+</li>
+<li><p><del>用jsdelivr cdn加速不仅限于图片的文件</del></p>
+</li>
+<li><p><del>解决文章url地址过长的问题</del> #后来发现养成一个用英文命名博文的习惯更好一些，因为短地址是用随机英文+数字表示每篇博文url，使用后难以通过url分辨不同标题</p>
+ <figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 在hexo下cmd运行</span><br><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></tbody></table></figure>
+
+ <figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 修改_config.yml文件中permalink部分</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">post/:abbrlink/</span>  <span class="comment"># 此处可以自己设置，也可以直接使用 :/abbrlink</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line">    <span class="attr">alg:</span> <span class="string">crc32</span>   <span class="comment">#算法： crc16(default) and crc32</span></span><br><span class="line">    <span class="attr">rep:</span> <span class="string">hex</span>     <span class="comment">#进制： dec(default) and hex</span></span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>鼠标指针美化</p>
+</li>
+<li><p><del>valine评论设置邮件提醒</del>，评论框背景图</p>
+</li>
+<li><p>鼠标移动至微信图标自动弹出二维码</p>
+</li>
+<li><p>更多的颜色修改</p>
+</li>
+<li><p>解决hexo clean后文章阅读量重置的问题</p>
+</li>
+<li><p><a href="https://cndrew.cn/2020/04/10/hexo-shuoshuo/" target="_blank" rel="noopener">为你的hexo博客添加动态的（可直接发布说说的）说说页面</a></p>
+</li>
+<li><p><del><a href="https://developer.aliyun.com/adc/student/" target="_blank" rel="noopener">疫情期间白嫖6个月阿里云服务器</a></del></p>
+</li>
+<li><p><del>将Hexo双部署到github和阿里云ECS</del></p>
+<p><del><a href="https://www.yuguomin.com/2019/08/05/Build-blog-Hexo-base/" target="_blank" rel="noopener">教程1</a></del></p>
+<p><del><a href="https://blog.csdn.net/qq_35561857/article/details/81590953" target="_blank" rel="noopener">教程2</a></del></p>
+</li>
+<li><p><del>将Hexo双部署到github和阿里云OSS</del></p>
+</li>
+<li><p>等10月份白嫖的阿里云服务器到期，就用通过阿里云翼计划学生价租</p>
+</li>
+<li><p>个人域名备案</p>
+</li>
+<li><p>修改字体</p>
+</li>
+<li><p><del>关闭指定页面Valine评论</del></p>
+</li>
+<li><p><a href="https://github.com/MikeCoder/hexo-tag-cloud/blob/master/README.ZH.md" target="_blank" rel="noopener">Hexo-Tag-Cloud 动态标签</a><a href="https://cdn.jsdelivr.net/gh/machgeek/imgx/1.gif" target="_blank" rel="noopener" data-caption="效果图" data-fancybox="images"><img src="https://cdn.jsdelivr.net/gh/machgeek/imgx/1.gif" alt="效果图"></a></p>
+</li>
+<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">音乐页使用APlayer插件</a></p>
+</li>
+<li><p>添加顶部加载条</p>
+</li>
+<li><p><a href="https://www.cnblogs.com/yof3ng/p/9748144.html" target="_blank" rel="noopener">双git账户对应双hexo</a></p>
+</li>
+<li></li>
+</ol>
+</body></html>
+
+  
+    <div class="post-reward">
+    <div id="reward-button">打赏</div>
+      <div id="qr">
+        <div class="wrap">
+            
+            <div class="bg-wrap">
+              <a href="/images/zhifubao.png" target="_block" class="bg" style="background-image:url('/images/zhifubao.png')"></a>
+              支付宝
+            </div>
+            
+            
+            <div class="bg-wrap">
+                <a href="/images/weixin.png" target="_block" class="bg" style="background-image:url('/images/weixin.png')"></a>
+              微信
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  
+  <div class="post-guide">
+    <div class="item left">
+        
+          <a href="/2020/04/26/HexoThemes/">HexoThemes</a>
+        
+    </div>
+    <div class="item right">
+        
+          <a href="/2020/04/18/Software&Websits/">软件、网站使用笔记</a>
+        
+    </div>
+  </div>
+
+  
+
+  <div class="post-copyright">
+    <div class="auth">
+      本文作者：<a href="http://yoursite.com">Eabal</a>
+    </div>
+    <div class="link">
+      永久链接：<a href="http://yoursite.com/2020/04/18/Hexo-beautify/">http://yoursite.com/2020/04/18/Hexo-beautify/</a>
+    </div>
+    <div class="declare">
+      版权声明：本文首发于<a href="http://yoursite.com">Eabal</a>的博客，转载请注明出处！
+    </div>
+  </div>
+
+  <div id="comment"></div>
+
+  
+  
+</article>
         <footer>
           <div class="copyright">
             ©2020
