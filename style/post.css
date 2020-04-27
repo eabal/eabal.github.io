@@ -35,7 +35,7 @@
 }
 .post-entry .header .title,
 .post-wrap .header .title {
-  font-size: 2rem;
+  font-size: 2.15rem;
   margin-bottom: 1rem;
 }
 .post-entry .header .meta,
@@ -192,7 +192,7 @@
 .post-wrap pre,
 .post-entry code,
 .post-wrap code {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
 .post-entry code:not(.hljs),
@@ -208,7 +208,7 @@
 .post-wrap p,
 .post-entry table,
 .post-wrap table {
-  font-size: 0.875rem;
+  font-size: 1.025rem;
   line-height: 1.5rem;
 }
 .post-entry p,
