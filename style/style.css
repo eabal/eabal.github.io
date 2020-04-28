@@ -3167,3 +3167,9 @@ a {
   border-color: #3273dc !important;
   background-color: #3273dc !important;
 }
+* {
+  cursor: url("https://cdn.jsdelivr.net/gh/machgeek/img-inventory/normal-select-blue.cur"), auto !important;
+}
+:active {
+  cursor: url("https://cdn.jsdelivr.net/gh/machgeek/img-inventory/txt-selection-blue.cur"), auto !important;
+}

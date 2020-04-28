@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://eabal.github.io/"/>
-  <updated>2020-04-27T01:59:58.464Z</updated>
+  <updated>2020-04-27T15:00:54.291Z</updated>
   <id>https://eabal.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://eabal.github.io/2020/04/26/color/"/>
     <id>https://eabal.github.io/2020/04/26/color/</id>
     <published>2020-04-26T12:57:47.000Z</published>
-    <updated>2020-04-27T01:59:58.464Z</updated>
+    <updated>2020-04-27T15:00:54.291Z</updated>
     
     <summary type="html">
     
       
       
         &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;myButton&quot;&gt;MyButton&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;
+&lt;div id=&quot;box1&quot; data-varsity&gt;&lt;/div&gt;
+&lt;div id=&quot;box2&quot; data-varsity&gt;&lt;/d
       
     
     </summary>
@@ -150,7 +151,7 @@
     <link href="https://eabal.github.io/2020/04/18/Software&amp;Websits/"/>
     <id>https://eabal.github.io/2020/04/18/Software&amp;Websits/</id>
     <published>2020-04-18T02:55:33.000Z</published>
-    <updated>2020-04-26T11:41:39.497Z</updated>
+    <updated>2020-04-27T14:46:58.255Z</updated>
     
     <summary type="html">
     
